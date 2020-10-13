@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px) {
+  .main .banner .bannerInfo .info h1 {
+    font-size: 2.5rem;
+  }
+  .main .banner .bannerInfo .info a {
+    padding: 10px 28px;
+  }
+  .main .gallery .images {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .main .banner .bannerInfo .info h1 {
+    font-size: 1.5rem;
+  }
+  .main .banner .bannerInfo .info a {
+    padding: 5px 24px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main .gallery .images {
+    grid-template-columns: auto;
+  }
+}

@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  z-index: 9999;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 5%;
+  transition: 0.3s linear;
+}
+.navbar.active {
+  top: 0;
+  background: #000;
+  height: 60px;
+}
+.navbar .logo {
+  position: relative;
+  text-decoration: none;
+  left: 12%;
+  font-size: 1.8rem;
+  color: #5cee18;
+  font-weight: 800;
+}
+.navbar .bars {
+  position: relative;
+  height: 35px;
+  width: 45px;
+  right: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.navbar .bars div {
+  position: relative;
+  height: 5px;
+  width: 100%;
+  background: #000;
+}
+.navbar.active .bars div {
+  background: #fff;
+}
+
+/* scroll bar css  */
+::-webkit-scrollbar {
+  width: 0;
+}

@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px) {
+  .main .banner .bannerForm h1 {
+    font-size: 2.5rem;
+  }
+  .main .banner .bannerForm form .formgroup:first-child {
+    position: relative;
+    height: calc(40px * 2.5);
+    width: 100%;
+    margin: 10px 0;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .banner .bannerForm form .formgroup:first-child input {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    padding: 10px 15px;
+    resize: none;
+  }
+}

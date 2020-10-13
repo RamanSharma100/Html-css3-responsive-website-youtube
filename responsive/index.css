@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1024px) {
+  .main .banner .info {
+    height: 350px;
+  }
+  .main .banner .info .text h1 {
+    font-size: 3rem;
+  }
+  .main .banner .info .text p {
+    font-size: 1.2rem;
+  }
+  .main .banner .info .btns a {
+    padding: 12px 25px;
+  }
+  .main .banner .bannerBottom {
+    bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main .banner .info {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+    display: block;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .main .banner .info .text {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .main .banner .info .text h1 {
+    margin-bottom: 1%;
+  }
+  .main .banner .info .text p {
+    color: #fff;
+    margin-bottom: 5%;
+  }
+  .main .banner .info .btns a:last-child {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+  }
+  .main .banner .info .img {
+    position: absolute;
+  }
+  .main .banner .info .img::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: skewX(0deg);
+  }
+  .main .banner .bannerBottom {
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .main .banner .bannerBottom .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* section 2  */
+  .main .section2 {
+    display: block;
+    height: 50vh;
+  }
+  .main .section2 .img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .main .section2 .info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .main .section2 .info h1 {
+    position: relative;
+    width: auto;
+    margin-top: 2%;
+    font-size: 2.8rem;
+    margin-left: 0;
+    transform: translateX(0);
+  }
+  .main .section2 .info p {
+    position: relative;
+    width: auto;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 8%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main .banner .info .text h1 {
+    margin-bottom: 1%;
+    font-size: 1.8rem;
+    margin-top: 15%;
+  }
+  .main .banner .info .text p {
+    color: #fff;
+    margin-bottom: 10%;
+    font-size: 0.89rem;
+  }
+  .main .banner .info .btns a {
+    padding: 5px 15px;
+    font-size: 0.29rem;
+  }
+  .main .banner .bannerBottom {
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto;
+    bottom: 15%;
+  }
+
+  /* section 2  */
+  .main .section2 {
+    display: block;
+    height: 45vh;
+  }
+  .main .section2 .info h1 {
+    position: relative;
+    width: auto;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    margin-left: 0;
+    transform: translateX(0);
+  }
+}

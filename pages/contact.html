@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive website -- fullyworld web tutorials</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="../css/contact.css" />
+    <!-- navbar css  -->
+    <link rel="stylesheet" href="../css/navigationbar.css" />
+    <!-- footer css  -->
+    <link rel="stylesheet" href="../css/footer.css" />
+    <!-- menuDrawer.css  -->
+    <link rel="stylesheet" href="../css/menuDrawer.css" />
+    <!-- responsiveness  -->
+    <link rel="stylesheet" href="../responsive/contact.css" />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="banner">
+        <!-- navigation bar  -->
+        <nav class="navbar">
+          <a href="../index.html" class="logo">Nature</a>
+          <div class="bars">
+            <div></div>
+            <div></div>
+          </div>
+        </nav>
+
+        <!-- menu drawer  -->
+        <div class="menuDrawer">
+          <i class="fa fa-times" aria-hidden="true"></i>
+          <ul>
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li class="active">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- banner form  -->
+        <div class="bannerForm">
+          <h1>Contact Us</h1>
+          <form>
+            <div class="formgroup">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="formgroup">
+              <input type="text" name="subject" placeholder="subject" />
+            </div>
+            <div class="formgroup textarea">
+              <textarea
+                name="message"
+                placeholder="Enter your message..."
+              ></textarea>
+            </div>
+            <div class="formgroup">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- footer  -->
+      <footer class="footer">
+        <p>
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          By
+          <a
+            href="https://www.youtube.com/fullyworldwebtutorials"
+            target="_blank"
+          >
+            Fullyworld Web Tutorials
+          </a>
+        </p>
+      </footer>
+    </div>
+
+    <!-- script  -->
+    <script src="../js/navigation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<img
+              src="https://images.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            />
+            <img
+              src="https://images.pexels.com/photos/1170572/pexels-photo-1170572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              class="active"
+            />
+            <img
+              src="https://images.pexels.com/photos/726396/pexels-photo-726396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            />
+            <img
+              src="https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            />

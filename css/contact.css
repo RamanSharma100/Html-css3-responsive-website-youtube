@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+/* banner  */
+.main .banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.main .banner .bannerForm {
+  position: relative;
+  height: 60%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .banner .bannerForm h1 {
+  position: relative;
+  font-size: 3.5em;
+  font-weight: 800;
+  color: #017bf5;
+  padding-bottom: 20px;
+}
+.main .banner .bannerForm form {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main .banner .bannerForm form .formgroup {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+}
+.main .banner .bannerForm form .formgroup input,
+.main .banner .bannerForm form .formgroup.textarea textarea {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 5px;
+  padding: 10px 15px;
+  resize: none;
+}
+.main .banner .bannerForm form .formgroup.textarea {
+  height: 200px;
+}
+.main .banner .bannerForm form .formgroup input[type='submit'] {
+  position: relative;
+  border: 1px solid #408321;
+  background: #408321;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.main .banner .bannerForm form .formgroup input[type='submit']:hover {
+  border: 1px solid #224b0f;
+  background: #224b0f;
+}

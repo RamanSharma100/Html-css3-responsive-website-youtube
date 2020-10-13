@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+/* banner  */
+.main .banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.main .banner::before {
+  position: absolute;
+  content: '';
+  height: 90%;
+  width: 10px;
+  background: #4bbd16;
+  top: 0;
+  left: 0;
+}
+.main .banner::after {
+  position: absolute;
+  content: '';
+  height: 90%;
+  width: 10px;
+  background: #4bbd16;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* banner info  */
+
+.main .banner .info {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-45%);
+  display: grid;
+  grid-template-columns: 60% auto;
+  height: 400px;
+  overflow: hidden;
+}
+.main .banner .info .text {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.main .banner .info .text h1 {
+  position: relative;
+  margin-top: 5%;
+  font-size: 3.8rem;
+  color: #4bbd16;
+  margin-bottom: 0.5%;
+}
+.main .banner .info .text p {
+  position: relative;
+  font-size: 1.8rem;
+  color: #000;
+}
+.main .banner .info .btns {
+  position: relative;
+  top: 15%;
+}
+.main .banner .info .btns a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background: #017bf5;
+  border: 1px solid #017bf5;
+  padding: 18px 32px;
+  transition: 0.3s linear;
+}
+.main .banner .info .btns a:last-child {
+  background: #fff;
+  color: #017bf5;
+}
+.main .banner .info .btns a:hover {
+  color: #fff;
+  background: #017bf5;
+  border: 1px solid #017bf5;
+}
+
+.main .banner .info .img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main .banner .info .img img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.main .banner .info .img::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.09);
+  top: 0;
+  right: -8%;
+  z-index: 1;
+  transform: skewX(-15deg);
+}
+
+/* banner bottom  */
+.main .banner .bannerBottom {
+  position: absolute;
+  bottom: 2%;
+  overflow: hidden;
+  height: 150px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% auto;
+}
+.main .banner .bannerBottom .imgThumbnails {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-left: 15px;
+}
+.main .banner .bannerBottom .imgThumbnails img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s linear;
+  filter: grayscale(1) brightness(0.5);
+}
+.main .banner .bannerBottom .imgThumbnails img:hover,
+.main .banner .bannerBottom .imgThumbnails img.active {
+  filter: grayscale(0) brightness(1);
+}
+.main .banner .bannerBottom .btn {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.main .banner .bannerBottom .btn a {
+  position: absolute;
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 35px;
+}
+
+/* section 2 */
+.main .section2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% auto;
+  overflow: hidden;
+}
+.main .section2 .img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main .section2 .img::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  z-index: 1;
+}
+.main .section2 .img img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.main .section2 .info {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.main .section2 .info h1 {
+  position: relative;
+  width: 80%;
+  margin-top: 30%;
+  font-size: 3.5rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: #4bbd16;
+}
+.main .section2 .info p {
+  position: relative;
+  width: 50%;
+  font-size: 1.2rem;
+  margin-left: 50%;
+  color: #666;
+  transform: translateX(-50%);
+  margin-bottom: 15%;
+}
+.main .section2 .info a {
+  position: relative;
+  text-decoration: none;
+  padding: 18px 32px;
+  color: #fff;
+  background: #017bf5;
+}
+.main .section2 .info a:hover {
+  background: #0d5aa7;
+}
